@@ -1,0 +1,36 @@
+.office{
+    margin: 50px 150px 50px 150px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.office-image{
+    height: 300px;
+    width: 300px;
+}
+.office-1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.office-heading{
+    margin-top: 20px;
+}
+.office-para{
+    color: #666666;
+    margin-top: 10px;
+}
+.office-button{
+    margin-top: 15px;
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+    border: solid 1px #666666;
+    background-color: white;
+
+}
+.office-button:hover{
+    background-color: #36B864;
+    color: white;
+}

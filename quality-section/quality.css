@@ -1,0 +1,46 @@
+.quality{
+    display: flex;
+    justify-content: space-between;
+    margin: 160px 250px 50px 150px ;
+}
+.quality-images{
+    display: flex;
+}
+.quality-image-1{
+    position: absolute; 
+    height: 300px;
+    width: 300px;
+    
+}
+.quality-image-2{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    top: 110px;
+    right: 90px;
+}
+.quality-heading{
+    color: #111D15;
+    font-size: smaller;
+}
+.quality-para-1{
+    color: #111D15;
+    font-size: 50px;
+    margin: 10px 0 20px 0;
+}
+.quality-para-2{
+    color: #666666;
+    font-size: 20px;
+    margin: 0 0 40px 0;
+}
+.quality-main{
+    width: 550px;
+}
+.quality-button{
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+    border: solid 1px #666666;
+    color: white;
+    background-color: 36B864;
+}
