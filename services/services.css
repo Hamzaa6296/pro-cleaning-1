@@ -1,0 +1,17 @@
+.service{
+    display: flex;
+    justify-content: center;
+    margin: 80px 50px 40px 50px;
+    border-bottom: solid 1px #83A790;
+    padding-bottom: 40px;
+}
+.service-1{
+    font-size: 50px;
+}
+.service-2{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.two-three{
+    margin-top: 15px;
+}
