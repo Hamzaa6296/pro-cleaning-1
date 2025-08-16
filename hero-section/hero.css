@@ -1,49 +1,89 @@
-.hero-section{
-    background: url("../navigation/images/Hero\ Iamge.png")no-repeat center center;
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    letter-spacing: 0%;
+.hero-section {
+  background: url("../navigation/images/Hero Iamge.png") no-repeat center center;
+  height: 100vh;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertically centers text */
+  padding: 0 2rem;          /* responsive side padding */
+  color: #111;              /* default text color */
 }
-.paragraphs{
-    width: 700px;
-    margin-left: 80px;
-    margin-top: 150px;
+
+.paragraphs {
+  max-width: 700px;         /* cap width but let it shrink */
 }
-.para-1{
-    font-size: 30px;
+
+.para-1 {
+  font-size: clamp(1rem, 2vw, 2rem);  /* responsive font */
+  font-weight: 500;
 }
-.para-2{
-    font-size: 70px;
-    margin: 0px;
+
+.para-2 {
+  font-size: clamp(2rem, 6vw, 4rem);  /* scales with screen */
+  font-weight: bold;
+  margin: 0.5rem 0;
 }
-.para-3{
-    color: #666666;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+
+.para-3 {
+  color: #666666;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  margin: 1.5rem 0;
+  line-height: 1.5;
 }
-.buttons{
-    margin-left: 80px;
-    margin-top: 20px;
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;     /* buttons stack on small screens */
+  gap: 1rem;
 }
-.button-1{
-    height: 42px;
-    width: 150px;
-    font-size: 14px;
-    background-color: #36B864;
-    border: none;
-    border-radius: 4px;
-    margin-right: 20px;
-    font-weight: 600;
+
+.button-1,
+.button-2 {
+  height: 42px;
+  min-width: 140px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 0 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
-.button-2{
-    height: 42px;
-    width: 150px;
-    font-size: 14px;
-    border: solid 1px;
-    border-radius: 4px;
-    background-color: transparent;
-    font-weight: 600;
+
+.button-1 {
+  background-color: #36B864;
+  border: none;
+  color: white;
+}
+
+.button-1:hover {
+  background-color: #2f9a53;
+}
+
+.button-2 {
+  border: 1px solid #36B864;
+  background-color: transparent;
+  color: #36B864;
+}
+
+.button-2:hover {
+  background-color: #36B864;
+  color: white;
+}
+
+/* -------- RESPONSIVE -------- */
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;  /* center text on mobile */
+    padding: 2rem 1rem;
+    align-items: center;
+  }
+
+  .paragraphs {
+    max-width: 100%;  /* full width */
+  }
+
+  .buttons {
+    justify-content: center;
+  }
 }
