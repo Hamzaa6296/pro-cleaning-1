@@ -1,0 +1,62 @@
+.welcome{
+    margin: 50px 150px 50px 150px ;
+    justify-content: space-evenly;
+}
+.welcome-text{
+    max-width: 500px;
+    margin-left: 400px;
+    margin-top: 0;
+}
+.welcome-heading{
+    font-size: 30px;
+}
+.welcome-para{
+    color: #666666;
+    margin: 20px 0 20px 0;
+}
+.welcome-images{
+    display: flex;
+}
+.welcome-image-1{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    
+}
+.welcome-image-2{
+    position: relative;
+    height: 180px;
+    width: 180px;
+    top: 160px;
+    left: 200px;
+}
+.button-tick{
+    height: 15px;
+    width: 15px;
+}
+.welcome-button-1{
+    border: none;
+    height: 30px;
+    padding: 5px 10px 10px 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.welcome-button-2{
+    border: none;
+    height: 30px;
+    padding: 5px 10px 10px 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.welcome-button-3{
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+    border: solid 1px #666666;
+    background-color: white;
+    margin: 25px 20px 0 0;
+}
+.welcome-button-3:hover{
+    background-color: #36B864;
+    color: white;
+}

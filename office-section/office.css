@@ -3,11 +3,9 @@
     display: flex;
     justify-content: space-between;
 }
-
-
 .office-image{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 350px;
 }
 .office-1{
     display: flex;
